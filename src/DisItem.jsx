@@ -9,7 +9,7 @@ function DisItem() {
   return (
     <div className='dis-container'>
       <button className='btn'>Discover</button>
-      <h1>Best Recommendation</h1>
+      <h1 className='h1'>Best Recommendation</h1>
 
       <div className='cards'>
         {product.map((item, index) => (
