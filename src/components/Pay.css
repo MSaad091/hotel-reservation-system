@@ -1,0 +1,134 @@
+
+/* Main Container */
+.pay-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.empty-cart {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 22px;
+  color: #777;
+}
+
+/* Card Layout */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.room-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.room-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.room-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.room-card .info {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.room-card .details p {
+  margin: 6px 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.room-card .subtotal {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn.add {
+  background: #007bff;
+}
+
+.btn.add:hover {
+  background: #0056b3;
+}
+
+.btn.remove {
+  background: #dc3545;
+}
+
+.btn.remove:hover {
+  background: #a71d2a;
+}
+
+.btn.wifi {
+  background: #6f42c1;
+}
+
+.btn.wifi:hover {
+  background: #4e2789;
+}
+
+.btn.pay {
+  background: #28a745;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.btn.pay:hover {
+  background: #1c7c31;
+}
+
+/* Total Section */
+.total-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.total-section h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #222;
+}
